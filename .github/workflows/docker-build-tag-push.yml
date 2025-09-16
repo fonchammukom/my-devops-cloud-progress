@@ -55,7 +55,7 @@ jobs:
 
       # - name: Pull and run
       #   run: |
-      #     docker stop Helen || true
-      #     docker rm Helen || true
+      #     docker stop Foncham || true
+      #     docker rm Foncham || true
       #     docker pull ${{ env.REGISTRY }}/${{ secrets.DOCKERHUB_USERNAME }}/${{ env.IMAGE_NAME }}:latest
-      #     docker run -d -p 8000:80 --name Helen ${{ env.REGISTRY }}/${{ secrets.DOCKERHUB_USERNAME }}/${{ env.IMAGE_NAME }}:latest
+      #     docker run -d -p 8000:80 --name Foncham ${{ env.REGISTRY }}/${{ secrets.DOCKERHUB_USERNAME }}/${{ env.IMAGE_NAME }}:latest
